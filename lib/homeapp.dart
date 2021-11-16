@@ -75,16 +75,16 @@ class _HomeAppState extends State<HomeApp> {
       padding: EdgeInsets.all(0),
       margin: EdgeInsets.all(10),
       decoration: BoxDecoration(
-          color: Colors.white,
+          color: Colors.white,// permanece a mesma coisa
           borderRadius: BorderRadius.all(Radius.circular(15.0)),
           boxShadow: [
             BoxShadow(
-                color: Colors.yellowAccent,
+                color: Colors.yellowAccent,// permanece a mesma coisa
                 offset: Offset(2.0, 2.0),
                 blurRadius: 8.0,
                 spreadRadius: 1.0),
             BoxShadow(
-                color: Colors.cyanAccent,
+                color: Colors.cyanAccent, // permanece a mesma coisa
                 offset: Offset(-2.0, -2.0),
                 blurRadius: 8.0,
                 spreadRadius: 1.0),
@@ -104,7 +104,7 @@ class _HomeAppState extends State<HomeApp> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.black26,
+        backgroundColor: Colors.white, // nova cor 
         body: Container(
             child: Column(
           children: <Widget>[
